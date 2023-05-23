@@ -7,7 +7,6 @@ import org.junit.Assert;
 public class LoginPageSteps {
 
     private LoginPage loginPage;
-
     @Step
     public void isOnLoginPage(){
         loginPage.open();
@@ -27,7 +26,6 @@ public class LoginPageSteps {
     public void navigateToContactsUsPage(){
         loginPage.goToContactsUsPage();
     }
-
 
 
 }

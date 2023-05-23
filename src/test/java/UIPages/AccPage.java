@@ -21,6 +21,4 @@ public class AccPage extends PageObject {
         return getTitle();
     }
 
-
-
 }

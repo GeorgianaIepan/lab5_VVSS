@@ -12,7 +12,6 @@ public class AccPageSteps {
     public void validateAppLogo(){
         accPage.isLogoExist();
     }
-
     @Step
     public String searchProduct(String searchKey, String productName){
         return accPage.doSearch(searchKey, productName);

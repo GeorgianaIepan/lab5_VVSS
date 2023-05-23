@@ -39,7 +39,6 @@ public class ContactUsTest extends BaseTest{
         System.out.println(actualMessage);
         Assert.assertTrue(actualMessage.equals(expMesg));
     }
-
     @Pending
     @Test
     public void test1(){

@@ -25,5 +25,4 @@ public class LoginPageTest extends BaseTest {
         loginPageSteps.loginAsUser();
         loginPageSteps.userShouldBeLogin();
     }
-
 }

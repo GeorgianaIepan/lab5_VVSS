@@ -12,19 +12,18 @@ import org.openqa.selenium.WebElement;
 @DefaultUrl("https://www.scs.ubbcluj.ro/webmail/?_task=logout&_token=yLATVwh1RGfFU6jk6M7lTu2SiD1gv437")
 public class LoginPage extends PageObject {
 
-    public void doLogin(){
+    public void doLogin() {
         $("#email").sendKeys("janthird2021batch@gmail.com");
         $("#passwd").sendKeys("Selenium12345");
         $("#SubmitLogin").click();
 
     }
 
-    public String accountPageIsVisible(){
+    public String accountPageIsVisible() {
         return $("div#center_column h1").getText();
     }
 
-    public void goToContactsUsPage(){
+    public void goToContactsUsPage() {
         $(By.linkText("Contact us")).click();
     }
-
 }
